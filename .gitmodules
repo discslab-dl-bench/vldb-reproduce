@@ -22,3 +22,15 @@
 	path = tracing_tools
 	url = git@github.com:discslab-dl-bench/tracing_tools.git
 	branch = vldb-paper
+[submodule "dlrm_original"]
+	path = dlrm_original
+	url = git@github.com:discslab-dl-bench/mlcomns_dlrm.git
+	branch = vldb-main
+[submodule "dlrm_instrumented"]
+	path = dlrm_instrumented
+	url = git@github.com:discslab-dl-bench/mlcomns_dlrm.git
+	branch = vldb-instrumented
+[submodule "dlrm_sleep"]
+	path = dlrm_sleep
+	url = git@github.com:discslab-dl-bench/mlcomns_dlrm.git
+	branch = vldb-sleep
