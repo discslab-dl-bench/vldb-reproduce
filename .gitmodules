@@ -1,0 +1,4 @@
+[submodule "benchmark"]
+	path = benchmark
+	url = git@github.com:discslab-dl-bench/dlio_benchmark2.git
+	branch = vldb-paper
