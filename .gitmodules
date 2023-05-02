@@ -6,3 +6,11 @@
 	path = datagen
 	url = git@github.com:discslab-dl-bench/datagen.git
 	branch = vldb-paper
+[submodule "unet3d_original"]
+	path = unet3d_original
+	url = git@github.com:discslab-dl-bench/mlcomns_imseg.git
+	branch = vldb-main
+[submodule "unet3d_instrumented"]
+	path = unet3d_instrumented
+	url = git@github.com:discslab-dl-bench/mlcomns_imseg.git
+	branch = vldb-instrumented
