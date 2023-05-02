@@ -18,3 +18,7 @@
 	path = unet3d_sleep
 	url = git@github.com:discslab-dl-bench/mlcomns_imseg.git
 	branch = vldb-sleep
+[submodule "tracing_tools"]
+	path = tracing_tools
+	url = git@github.com:discslab-dl-bench/tracing_tools.git
+	branch = vldb-paper
