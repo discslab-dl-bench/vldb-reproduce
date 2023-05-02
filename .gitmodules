@@ -14,3 +14,7 @@
 	path = unet3d_instrumented
 	url = git@github.com:discslab-dl-bench/mlcomns_imseg.git
 	branch = vldb-instrumented
+[submodule "unet3d_sleep"]
+	path = unet3d_sleep
+	url = git@github.com:discslab-dl-bench/mlcomns_imseg.git
+	branch = vldb-sleep
