@@ -34,3 +34,7 @@
 	path = dlrm_sleep
 	url = git@github.com:discslab-dl-bench/mlcomns_dlrm.git
 	branch = vldb-sleep
+[submodule "tracesim"]
+	path = tracesim
+	url = git@github.com:discslab-dl-bench/tracesim.git
+	branch = vldb-paper
