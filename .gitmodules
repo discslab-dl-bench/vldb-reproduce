@@ -1,5 +1,5 @@
 [submodule "benchmark"]
-	path = benchmark
+	path = benchmark_instrumented
 	url = git@github.com:discslab-dl-bench/dlio_benchmark2.git
 	branch = vldb-paper
 [submodule "datagen"]
@@ -46,3 +46,11 @@
 	path = bert_original
 	url = git@github.com:discslab-dl-bench/mlcomns_bert.git
 	branch = vldb-original
+[submodule "trace_visuals"]
+	path = trace_visuals
+	url = git@github.com:discslab-dl-bench/trace_visuals.git
+	branch = vldb-paper
+[submodule "benchmark_original"]
+	path = benchmark_original
+	url = git@github.com:discslab-dl-bench/dlio_benchmark2.git
+	branch = vldb-main

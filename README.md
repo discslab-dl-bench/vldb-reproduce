@@ -6,20 +6,34 @@ Run the following to copy submodule code
 git clone --recurse-submodules git@github.com:discslab-dl-bench/vldb-reproduce.git
 ```
 
-Dependencies:
-bpftrace
-docker
-nvidia-smi
-mpstat
-python3
-
-We've tried to self-contain the various repositories.
+We've tried to self-contain the various repositories, most have a `requirements.txt` that you can `pip install` to get the dependencies. You can also create a python virtual environement for each.
 
 
 # Generate the plots from data
+To regenerate the plots from the paper, you can download the timeline and instrumentation run data from
 
+https://mcgill-my.sharepoint.com/:u:/g/personal/oana_balmau_mcgill_ca/EV8SApq87yJFtZfb_n_vgwYBoSZwNaKa4z7lCuEn_EGUmA?e=b8h4jL
 
-# Rerun all experiments from scratch
+https://mcgill-my.sharepoint.com/:u:/g/personal/oana_balmau_mcgill_ca/Ecmosl4mMFlDry-HH8oDDDIBKb1ZQJhLQ4s80M-BSa34JQ?e=HeLksK
+
+decompress them in `trace_visuals` and run the following two scripts:
+
+```
+./trace_visuals/generate_timeline_plots.sh
+./trace_visuals/generate_instrumentation_plots.sh
+```
+
+See the README in `trace_visuals` for more information.
+
+# Rerun experiments / Run new experiments
+
+Dependencies:
+- bpftrace
+- docker
+- tmux
+- nvidia-smi
+- mpstat
+- python3
 
 General pattern for each experiment:
 - you have a submodule linking to the correct branch
